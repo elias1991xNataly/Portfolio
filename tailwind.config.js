@@ -11,7 +11,8 @@ module.exports = {
         'custom-amethyst':'#693B93',
         'custom-plum':'#130428',
         'custom-violet':'#2C1250',
-        'custom-iris':'#4F228D'
+        'custom-iris':'#4F228D',
+        'custom-eggplant':'#2B0B3A'
 
       }
     },

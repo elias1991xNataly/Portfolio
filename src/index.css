@@ -5,20 +5,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Preahvihear:wght@400');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900');
 
-.navbar{
+.navbar {
     font-family: "Plus Jakarta Sans";
     color: white;
 }
 
-.main{
+.main {
     color: white;
     font-family: "Preahvihear";
 
 }
 
-.Introduction_gradient{
+.Introduction_gradient {
     background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 8.58%, rgba(50, 15, 133, 0.00) 100%);
     width: 385px;
     height: 431px;
+}
+
+
+.Description {
+    border-radius: 14px;
+    background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1690761600&Signature=IU4YK3pdiC3mji0VHRLUaiwDNGC9uVO-LDU~uxMOibxKfJHYbzQwBnQ9dgwEA0xwb3WtSAXhXtvS0v0ZhXcm~7fOiPuGi2eOEAN-hOGPaTGa2bjElKtnG9ZjXKJMYwSGa5ojbT4qwEFss5YNRDEtu0RNfhX8WDrC83OXjs25kX6xaiKElMk36mv0dsvCRxNCXRIAyadz6wcDipboy9Yc7s2aR-YOGZc9T7sDW7rjgXYTwg70dlD5VN5M7h9piMW~eQlAI8EHZbb4HNnY7Fwz99B~QOkJ-3z3my2b5sQ5MF3NP6zZoOIu4Scize~iIci1tUGqbWnmYLuqYhxsNt27ew__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 0% 0% / 154.22531366348267px 154.22531366348267px repeat, radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(105, 59, 147, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    font-family: "Poppins";
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
 }
