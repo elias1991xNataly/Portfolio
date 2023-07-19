@@ -9,7 +9,7 @@ import Contact_Info from '../../Parts_Of_The_Components/Contact_Info/Contact_Inf
 const Fondo = () => {
 
 	return (
-		<div className='main bg-custom-home h-[10000px] flex flex-col items-center'>
+		<div className='main bg-custom-home h-[5000px] flex flex-col items-center'>
 			<Personal_Introduction />
 			<div className='top-[333px]  relative flex flex-col items-center'>
 				<Current_Position />

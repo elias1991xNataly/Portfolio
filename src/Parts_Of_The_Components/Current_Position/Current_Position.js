@@ -3,12 +3,12 @@ import React from 'react';
 const Current_Position = () => {
 
 	return (
-		<div className='w-4/12 relative space-y-6 flex flex-col'>
+		<div className='w-4/12 relative space-y-12 flex flex-col'>
 
 
 			<div>
 
-				<h2>I´m a Front_End Developer.|</h2>
+				<h2 className='text-5xl w-[700px]'>I´m a Front_End Developer.|</h2>
 				<p>Currently, I´m a Front End Developer Student at  Gamma Tech School.</p>
 			</div>
 
