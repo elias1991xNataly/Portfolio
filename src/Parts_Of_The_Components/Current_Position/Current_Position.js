@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Current_Position = () => {
 
 	return (
-		<div className='w-4/12 relative space-y-12 flex flex-col'>
+		<div id="About" className='w-4/12 relative space-y-12 flex flex-col'>
 
 
 			<div>
 
 				<h2 className='text-5xl w-[700px]'>I´m a Front_End Developer.|</h2>
-				<p>Currently, I´m a Front End Developer Student at  Gamma Tech School.</p>
+				<p>Currently, I´m a Front End Developer Student at  <a href={"https://www.gammatech.school/"} target='_blank' className='text-sky-500'>Gamma Tech School.</a></p>
 			</div>
 
 			<div>

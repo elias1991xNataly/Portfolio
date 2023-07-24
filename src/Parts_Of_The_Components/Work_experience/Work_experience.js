@@ -8,8 +8,8 @@ const Work_experience = () => {
 				<section className='grid grid-cols-2 gap-x-[600px] gap-y-3 right-[24rem] relative'>
 					<div className='box flex flex-row h-48 p-10 w-[570px] rounded-2xl shadow'>
 						<div>
-								<img src="./images/Rectangle.png" alt="" className='w-[100px] h-[100px]' ></img>
-						<div className='w-[100px] h-[50px] flex items-center flex-shrink-0 bg-custom-violet rounded-[50%]'></div>
+								<img src="./images/Rectangle.png" alt="" className='w-[100px] h-[100px] absolute z-50' ></img>
+						<div className='w-[100px] h-[50px] flex items-center flex-shrink-0 bg-custom-violet rounded-[50%] relative top-12'></div>
 						</div>
 						<div className='pl-5 flex flex-col justify-center space-y-2'>
 
@@ -22,8 +22,8 @@ const Work_experience = () => {
 					<div className='box flex flex-row h-48 p-10 w-[570px] rounded-2xl shadow'>
 						<div >
 							<div>
-								<img src="./images/lightbulb.png" alt="" className='w-[100px] h-[100px]' />
-								<div className='w-[111px] h-[42px] flex items-center flex-shrink-0 bg-custom-violet relative bottom-3 rounded-[50%]'></div>
+								<img src="./images/lightbulb.png" alt="" className='w-[100px] h-[100px] absolute z-50' />
+								<div className='w-[111px] h-[42px] relative top-12 flex items-center flex-shrink-0 bg-custom-violet relative bottom-3 rounded-[50%]'></div>
 							</div>
 
 						</div>
@@ -36,8 +36,8 @@ const Work_experience = () => {
 					<div className='box flex flex-row h-48 p-10 w-[570px] rounded-2xl '>
 						<div>
 							<div>
-								<img src="./images/cup.png" alt="" className='w-[100px] h-[100px]' />
-								<div className='w-[100px] h-[50px] flex items-center flex-shrink-0 bg-custom-violet  rounded-[50%]'></div>
+								<img src="./images/cup.png" alt="" className='w-[100px] h-[100px] absolute z-50' />
+								<div className='w-[100px] h-[50px] relative top-12 flex items-center flex-shrink-0 bg-custom-violet  rounded-[50%]'></div>
 							</div>
 						</div>
 						<div className='pl-5 flex flex-col justify-center space-y-2'>
@@ -50,8 +50,8 @@ const Work_experience = () => {
 					<div className='box flex flex-row h-48 p-10 w-[570px] rounded-2xl'>
 						<div>
 							<div>
-								<img src="./images/sample.png" alt="" className='w-[100px] h-[100px]' />
-								<div className='w-[100px] h-[50px] flex items-center flex-shrink-0 bg-custom-violet rounded-[50%]'></div>
+								<img src="./images/sample.png" alt="" className='w-[100px] h-[100px] absolute z-50' />
+								<div className='w-[100px] h-[50px] relative top-12 flex items-center flex-shrink-0 bg-custom-violet rounded-[50%]'></div>
 							</div>
 						</div>
 						<div className='pl-5 flex flex-col justify-center space-y-2'>

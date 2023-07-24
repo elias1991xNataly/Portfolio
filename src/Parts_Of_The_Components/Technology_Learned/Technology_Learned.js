@@ -19,7 +19,16 @@ const Technology_Learned = () => {
 				<img src="./images/HTML.png" alt="" className='w-[32px] h-[29px] relative left-[120px]' />
 				<img src="./images/Vector_28.png" alt="" className='relative top-6 left-[10px]' />
 				<img src="./images/tailwind.png" alt="" className='w-[32px] h-[29px] relative left-[120px] ' />
-				<img src="./images/Vector_28.png" alt="" className='relative left-[10px] top-6' />
+				
+				<svg xmlns="http://www.w3.org/2000/svg" width="23" height="314" viewBox="0 0 23 314" fill="none" className='relative top-[20px] left-[10px]'>
+					<path d="M1 1C20.2534 73.3321 22 254.819 22 314" stroke="url(#paint0_linear_16_236)" />
+					<defs>
+						<linearGradient id="paint0_linear_16_236" x1="24" y1="27" x2="24" y2="324" gradientUnits="userSpaceOnUse">
+							<stop stop-color="#3D1768" />
+							<stop offset="1" stop-color="#3D1768" stop-opacity="0" />
+						</linearGradient>
+					</defs>
+				</svg>
 				<img src="./images/Trello.png" alt="" className='w-[32px] h-[29px] relative left-[120px]' />
 				<img src="./images/Vector_26.png" alt="" className='relative right-[60px] top-6' />
 			</div>
