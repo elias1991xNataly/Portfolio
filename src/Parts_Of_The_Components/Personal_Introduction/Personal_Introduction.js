@@ -18,11 +18,10 @@ const PersonalIntroduction = () => {
 					</div>
 				</div>
 				</div>
-				<div className=""></div>
 				<div className="space-y-3">
 					<p>A Front-End Developer who</p>
-					<h2 className="text-4xl w-[300px]">Loves solving problems with<b className="text-custom-purple"> programming</b>...</h2>
-					<p className="text-xs">Because if you love what you do, you will get really good at it</p>
+					<h2 className="text-4xl w-[300px]">Loves solving problems with <b className="text-custom-purple border-2 rounded-[50%] origin-top-left"> programming</b>...</h2>
+					<p className="text-xs">Because if you love what you do, you will get really good at it</p> 
 				</div>
 			</div>
 			<div className="top-[300px]"></div>

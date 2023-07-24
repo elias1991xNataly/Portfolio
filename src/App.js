@@ -5,12 +5,12 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App  xl:w-[screen]">
-
+{/* 
       <Navbar />
       <Routes>
         <Route path="/" element={<Fondo />}/>
         
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
