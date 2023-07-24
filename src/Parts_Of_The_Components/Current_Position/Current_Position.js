@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Current_Position = () => {
+const CurrentPosition = () => {
 
 	return (
 		<div id="About" className='w-4/12 relative space-y-12 flex flex-col'>
@@ -10,7 +9,7 @@ const Current_Position = () => {
 			<div>
 
 				<h2 className='text-5xl w-[700px]'>I´m a Front_End Developer.|</h2>
-				<p>Currently, I´m a Front End Developer Student at  <a href={"https://www.gammatech.school/"} target='_blank' className='text-sky-500'>Gamma Tech School.</a></p>
+				<p>Currently, I´m a Front End Developer Student at  <a href={"https://www.gammatech.school/"} rel="noreferrer" target='_blank' className='text-sky-500'>Gamma Tech School.</a></p>
 			</div>
 
 			<div>
@@ -20,4 +19,4 @@ const Current_Position = () => {
 	)
 }
 
-export default Current_Position;
+export default CurrentPosition;

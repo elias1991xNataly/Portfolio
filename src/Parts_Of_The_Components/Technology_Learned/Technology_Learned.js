@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Technology_Learned = () => {
+const TechnologyLearned = () => {
 	return (
 		<div className='text-white top-96 relative flex flex-col justify-center'>
 			<div>
@@ -105,4 +105,4 @@ const Technology_Learned = () => {
 		</div>
 	)
 }
-export default Technology_Learned;
+export default TechnologyLearned;

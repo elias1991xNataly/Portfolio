@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Contact_Info = () => {
+const ContactInfo = () => {
 	return (
 		<div className='relative top-[1000px] space-y-10'>
 			<h1>Contact</h1>
@@ -34,4 +34,4 @@ const Contact_Info = () => {
 
 }
 
-export default Contact_Info;
+export default ContactInfo;

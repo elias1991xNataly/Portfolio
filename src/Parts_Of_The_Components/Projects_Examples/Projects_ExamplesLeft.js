@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects_Examples = (props) => {
+const ProjectsExamples = (props) => {
 
 	return (
 	<div id="Lab" className='Introduction_gradient relative top-[600px] flex justify-center flex-row-reverse gap-x-2 relative  '>
@@ -22,4 +22,4 @@ const Projects_Examples = (props) => {
 	)
 }
 
-export default Projects_Examples;
+export default ProjectsExamples;

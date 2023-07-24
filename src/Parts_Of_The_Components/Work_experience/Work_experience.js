@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Work_experience = () => {
+const WorkExperience = () => {
 	return (
 		<div className='text-white top-48 relative'>
 			<div className='Introduction_gradient space-y-6'>
@@ -68,4 +68,4 @@ const Work_experience = () => {
 		</div>
 	)
 }
-export default Work_experience;
+export default WorkExperience;

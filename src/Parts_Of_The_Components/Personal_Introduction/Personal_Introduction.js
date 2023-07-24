@@ -1,6 +1,6 @@
 
 
-const Personal_Introduction = () => {
+const PersonalIntroduction = () => {
 
 
 	return (
@@ -18,6 +18,7 @@ const Personal_Introduction = () => {
 					</div>
 				</div>
 				</div>
+				<div className=""></div>
 				<div className="space-y-3">
 					<p>A Front-End Developer who</p>
 					<h2 className="text-4xl w-[300px]">Loves solving problems with<b className="text-custom-purple"> programming</b>...</h2>
@@ -29,4 +30,4 @@ const Personal_Introduction = () => {
 	)
 }
 
-export default Personal_Introduction;
+export default PersonalIntroduction;
