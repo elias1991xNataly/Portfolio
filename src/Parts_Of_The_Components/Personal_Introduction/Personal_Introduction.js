@@ -4,7 +4,7 @@ const Personal_Introduction = () => {
 
 
 	return (
-		<div className="pt-40 pl-40">
+		<div className="pt-40 pl-40 relative">
 
 
 			<div className="relative  pl-[300px] ">Hello! I Am <b className="text-custom-purple">Elias Alfonso</b></div>
@@ -14,7 +14,7 @@ const Personal_Introduction = () => {
 				<div className="Introduction_gradient w-[300px] relative">
 					<div className="w-[259px] h-[259px]">
 
-						<img src="./images/Elias.png" alt="Elias_Avatar" className=" rounded-2xl top-14 left-14 relative" />
+						<img src="./images/Elias2.png" alt="Elias_Avatar" className=" rounded-2xl top-14 left-14 relative" />
 					</div>
 				</div>
 				</div>

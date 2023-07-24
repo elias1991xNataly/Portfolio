@@ -1,15 +1,15 @@
-# Projects_Examples
+# Lab
 
 <!-- STORY -->
 
 ## Introduction
 
-Projects_Examples is an easy-to-use component.
+Lab is an easy-to-use component.
 
 ## Usage
 
 ```javascript
-import { Projects_Examples } from 'some-package-name';
+import { Lab } from 'some-package-name';
 ```
 
 ## Example use
@@ -18,7 +18,7 @@ import { Projects_Examples } from 'some-package-name';
 const myPage = props => {
   return (
     <main>
-      <Projects_Examples />
+      <Lab />
     </main>
   );
 };

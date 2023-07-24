@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 
 
@@ -9,9 +10,10 @@ const Navbar = () => {
 			<p className='text-8xl'>א</p>
 		</div>
 		<div className='flex justify-between space-x-32 '>
-			<p>Home</p>
-			<p>About</p>
-			<p>Lab</p>
+			<NavLink to="/">Home</NavLink>
+			<NavLink to="/About">About</NavLink>
+			<Link to={"https://github.com/elias1991xNataly?tab=repositories"} target="_blank">
+				Lab</Link>
 		</div>
 	</div>)
 }

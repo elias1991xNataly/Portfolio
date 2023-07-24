@@ -17,7 +17,8 @@
     font-family: "Preahvihear";
 
 }
-.white-gradient{
+
+.white-gradient {
     background: radial-gradient(50% 50.00% at 50% 50.00%, #FFF 17.71%, rgba(67, 67, 67, 0.00) 100%);
     display: flex;
     align-items: center;
@@ -31,12 +32,13 @@
 }
 
 
-.box{
+.box {
     box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
     /* background: #2C1250; */
     border-top: 8px #4F228D solid;
     background: linear-gradient(130deg, #130428 7.29%, #251043 34.38%, #38126D 56.77%, #261045 84.90%, #190634 100%)
 }
+
 .Description {
     border-radius: 14px;
     background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1690761600&Signature=IU4YK3pdiC3mji0VHRLUaiwDNGC9uVO-LDU~uxMOibxKfJHYbzQwBnQ9dgwEA0xwb3WtSAXhXtvS0v0ZhXcm~7fOiPuGi2eOEAN-hOGPaTGa2bjElKtnG9ZjXKJMYwSGa5ojbT4qwEFss5YNRDEtu0RNfhX8WDrC83OXjs25kX6xaiKElMk36mv0dsvCRxNCXRIAyadz6wcDipboy9Yc7s2aR-YOGZc9T7sDW7rjgXYTwg70dlD5VN5M7h9piMW~eQlAI8EHZbb4HNnY7Fwz99B~QOkJ-3z3my2b5sQ5MF3NP6zZoOIu4Scize~iIci1tUGqbWnmYLuqYhxsNt27ew__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 0% 0% / 154.22531366348267px 154.22531366348267px repeat, radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(105, 59, 147, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
@@ -48,8 +50,23 @@
     width: 1000px;
 }
 
-.Container{
+.Container {
     fill: linear-gradient(180deg, rgba(48, 16, 128, 0.60) 0%, rgba(120, 64, 173, 0.36) 100%);
     border: 1px solid linear;
-    
+
+}
+
+.amethyst {
+    filter: #693B93;
+    -webkit-filter: #693B93;
+}
+
+.huerotate {
+    filter: opacity(50%);
+    -webkit-filter: opacity(50%);
+}
+
+.grad-rad1 {
+
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
 }
