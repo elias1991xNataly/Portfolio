@@ -17,8 +17,8 @@ const Fondo = () => {
 				<WorkExperience/>
 				<TechnologyLearned/>
 				<div  className='flex justify-center flex-col flex-wrap'>
-				<ProjectsExamples image="./images/Project_1.png" header1="High Altitude Coffee" header2="Ecommerce shop" text="A web app for buying coffee specialized in different and exotic flavors. Building a cart api using react app through useContext and stylin using a mix of tailwind and normal css." />
-				<ProjectExampleRight image="./images/Actors.png" header1="Actors Nominations" header2="Sorting and Adding" text="A web app for checking out which actors has gained Oscars or Emmy´s and the popularity of each Actor."/>
+				<ProjectsExamples image="./images/Project_1.png" header1="High Altitude Coffee" header2="Ecommerce shop" text="A web app for buying coffee specialized in different and exotic flavors. Building a cart api using react app through useContext and styling using a mix of tailwind and normal css." />
+				<ProjectExampleRight image="./images/Actors.png" header1="Actors Nominations" header2="Sorting" text="A web app for checking out which actors has gained Oscars or Emmy´s and the popularity of each Actor."/>
 				<ProjectsExamples image="./images/Countries.png" header1="Countries" header2="Country Links" text="A web app for showing information of countries such as Area, Flag, Capital and the bordering countries. And when clicked on the bordering countries it shows that country information."/>
 				</div>
 			</div>

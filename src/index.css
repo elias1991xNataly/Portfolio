@@ -47,7 +47,9 @@
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    width: 1000px;
+}
+.Projects{
+    font-family: 'Poppins', sans-serif;
 }
 
 .Container {

@@ -12,7 +12,7 @@ const ProjectExampleRight = (props)=>{
 	<div className='text-end space-y-2 relative top-8 left-20'>
 
 		<h3 className='text-custom-purple w-[200px] flex justify-end relative '>{props.header1}</h3>
-		<h1 className='relative'> {props.header2}</h1>
+		<h1 className='relative text-5xl flex justify-end'> {props.header2}</h1>
 	</div>
 	<div className='Description pb-5 flex flex-col z-50 gap-y-4 w-[669px] h-[165px] relative top-[130px] right-80 px-10 pb-10'>
 
