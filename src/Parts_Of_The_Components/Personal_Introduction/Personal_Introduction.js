@@ -7,7 +7,7 @@ const PersonalIntroduction = () => {
 		<div className="pt-40 pl-40 relative">
 
 
-			{/* <div className="relative  pl-[300px] ">Hello! I Am <b className="text-custom-purple">Elias Alfonso</b></div>
+			<div className="relative  pl-[300px] ">Hello! I Am <b className="text-custom-purple">Elias Alfonso</b></div>
 			<img src="./images/Diagonal_Arrow.png" alt="" className="relative -pt-20 pl-[215px] bottom-3 " />
 			<div className="flex space-x-40">
 				<div className="white-gradient rounded-[150px]">
@@ -24,7 +24,7 @@ const PersonalIntroduction = () => {
 					<p className="text-xs">Because if you love what you do, you will get really good at it</p> 
 				</div>
 			</div>
-			<div className="top-[300px]"></div> */}
+			<div className="top-[300px]"></div>
 		</div>
 	)
 }
