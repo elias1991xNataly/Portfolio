@@ -11,7 +11,7 @@ const Fondo = () => {
 
 	return (
 		<div className='main bg-custom-home h-[4800px]  flex flex-col items-center'>
-			<PersonalIntroduction />
+			{/* <PersonalIntroduction />
 			<div className='top-[333px]  relative flex flex-col items-center'>
 				<CurrentPosition />
 				<WorkExperience/>
@@ -22,7 +22,7 @@ const Fondo = () => {
 				<ProjectsExamples image="./images/Countries.png" header1="Countries" header2="Country Links" text="A web app for showing information of countries such as Area, Flag, Capital and the bordering countries. And when clicked on the bordering countries it shows that country information."/>
 				</div>
 			</div>
-				<ContactInfo/>
+				<ContactInfo/> */}
 
 
 		</div>)
