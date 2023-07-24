@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
-	return (<div className='navbar w-auto bg-custom-navbar xl:w-max l:w-[full] m:w-[screen] h-[113px] items-center flex flex-row justify-evenly text-white'>
+	return (<div className='navbar  bg-custom-navbar xl:w-full l:w-full m:w-screen h-[113px] items-center flex flex-row justify-evenly text-white'>
 		<div>
 			<p className='text-8xl'>א</p>
 		</div>
