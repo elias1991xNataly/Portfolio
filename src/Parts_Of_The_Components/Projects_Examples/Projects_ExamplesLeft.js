@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectsExamples = (props) => {
 
@@ -6,8 +7,9 @@ const ProjectsExamples = (props) => {
 		<div id="Lab" className='Introduction_gradient relative top-[600px] flex justify-center flex-row-reverse gap-x-2 relative  '>
 			<div className='Introduction_gradient relative right-24 '>
 				<div className='w-[400px] bg-custom-eggplant relative overflow-clip overflow-auto top-20 left-10'>
-
-					<img src={props.image} alt="E-commerce shop" className='relative  h-[280px] relative left-10 top-5   ' />
+					<Link alt="" to={props.website} target="_blank">
+						<img src={props.image} alt="E-commerce shop" className='relative  h-[280px] relative left-10 top-5   ' />
+					</Link>
 				</div>
 
 			</div>
