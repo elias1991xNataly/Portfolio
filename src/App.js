@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App  xl:w-[screen]">
+    <div className="App l:w-screen xl:w-screen m:w-screen">
 
       <Navbar />
       <Routes>
