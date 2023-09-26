@@ -17,6 +17,12 @@
     font-family: "Preahvihear";
 
 }
+@media only screen and(min-width:600px)  {
+    .App{
+
+        width: auto;
+    }
+}
 
 .white-gradient {
     background: radial-gradient(50% 50.00% at 50% 50.00%, #FFF 17.71%, rgba(67, 67, 67, 0.00) 100%);
