@@ -23,7 +23,7 @@ const WorkExperience = () => {
 						<div >
 							<div>
 								<img src="./images/lightbulb.png" alt="" className='w-[100px] h-[100px] absolute z-50' />
-								<div className='w-[111px] h-[42px] relative top-12 flex items-center flex-shrink-0 bg-custom-violet relative bottom-3 rounded-[50%]'></div>
+								<div className='w-[111px] h-[42px] top-12 flex items-center flex-shrink-0 bg-custom-violet relative bottom-3 rounded-[50%]'></div>
 							</div>
 
 						</div>

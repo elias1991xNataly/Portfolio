@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectExampleRight = (props) => {
-	return (<div className='Introduction_gradient relative top-[600px] flex  gap-x-2 relative  '>
+	return (<div className='Introduction_gradient  top-[600px] flex  gap-x-2 relative  '>
 		<div className='Introduction_gradient relative right-24 '>
-			<div className='w-[400px] bg-custom-eggplant relative overflow-clip overflow-auto top-20 left-10'>
+			<div className='w-[400px] bg-custom-eggplant relative overflow-auto top-20 left-10'>
 				<Link alt="" to={props.website} target="_blank">
 
-					<img src={props.image} alt="E-commerce shop" className='relative  h-[280px] relative left-10 top-5   ' />
+					<img src={props.image} alt="E-commerce shop" className='h-[280px] relative left-10 top-5   ' />
 				</Link>
 			</div>
 
@@ -17,7 +17,7 @@ const ProjectExampleRight = (props) => {
 			<h3 className='text-custom-purple w-[200px] flex justify-end relative '>{props.header1}</h3>
 			<h1 className='relative text-5xl flex justify-end'> {props.header2}</h1>
 		</div>
-		<div className='Description pb-5 flex flex-col z-50 gap-y-4 w-[669px] h-[165px] relative top-[130px] right-80 px-10 pb-10'>
+		<div className='Description flex flex-col z-50 gap-y-4 w-[669px] h-[165px] relative top-[130px] right-80 px-10 pb-10'>
 
 			<p className='w-[400px] flex justify-end text-start'> {props.text} </p>
 		</div>

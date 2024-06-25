@@ -10,9 +10,9 @@ import ProjectExampleRight from '../../Parts_Of_The_Components/ProjectExampleRig
 const Fondo = () => {
 
 	return (
-		<div className='main bg-custom-home h-[4800px] w-full  flex flex-col items-center'>
+		<div className='main bg-custom-home w-screen min-h-screen flex flex-col items-center'>
 			<PersonalIntroduction />
-			<div className='top-[333px]  relative flex flex-col items-center'>
+			<div className='  relative flex flex-col items-center'>
 				<CurrentPosition />
 				<WorkExperience/>
 				<TechnologyLearned/>
